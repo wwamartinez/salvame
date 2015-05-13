@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="">
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				<title></title>
+				<meta name="description" content="">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+				<link rel="stylesheet" href="css/bootstrap.min.css">
+				<style>
+						
+				</style>
+				<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900,500' rel='stylesheet' type='text/css'>
+				<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monda:400,700,900,500">
+				<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,700,900,500">
+				<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+				<link rel="stylesheet" href="css/main.css">
+
+
+				<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		</head>
+		<body>
+		
+			<div class="container">
+				<div class="messages"> </div>
+				<div class="page">
+				</div>
+			</div>
+
+			<script id="template-register" type="text/template">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Crea tu cuenta</h1>
+						</div>
+						<div class="col-md-12">
+							<form id="register-form" action="/register" method="post" role="form">
+								<div class="form-group">
+									<label for="name">Nombre</label>
+									<input name="name" type="text" class="form-control" value="">
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input name="email" type="text" class="form-control" value="">
+								</div>
+								<div class="form-group">
+									<label for="phone">Tel&eacute;fono</label>
+									<input name="phone" type="text" class="form-control" value="">
+								</div>
+								<p>
+									<button type="submit" class="btn btn-success">Register</button>
+								</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</script>
+
+			<script id="template-home" type="text/template">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<h1 class="text-center">&iquest;Cual es tu emergencia?</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color1">
+								<span class="icon accident-icon"></span>
+								<span>Accidente</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color2">
+								<span class="icon fire-icon"></span>
+								<span>Incendio</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color3">
+								<span class="icon robery-icon"></span>
+								<span>Robo</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color4">
+								<span class="icon electricity-icon"></span>
+								<span>Electricidad</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color5">
+								<span class="icon flood-icon"></span>
+								<span>Inundaciones</span>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<a href="#service/1" class="big-button color6">
+								<span class="icon drought-icon"></span>
+								<span>Sequia</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</script>
+
+			<script id="template-connecting" type="text/template">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Connecting</h1>
+						</div>
+						<div class="col-md-12">
+							<p>Aqui van los botones</p>
+						</div>
+					</div>
+				</div>
+			</script>
+
+			<script id="template-service" type="text/template">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Service</h1>
+						</div>
+						<div class="col-md-12">
+							<p>Aqui van los botones</p>
+						</div>
+					</div>
+				</div>
+			</script>
+
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/vendor/underscore-min.js"></script>
+			<script src="js/vendor/backbone-min.js"></script>
+			<script src="js/vendor/mustache.js"></script>
+			
+			<script src="js/plugins.js"></script>
+			<script src="js/main.js"></script>
+
+		</body>
+</html>

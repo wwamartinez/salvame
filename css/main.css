@@ -1,0 +1,77 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: url('../img/help.jpg') no-repeat top center fixed;
+    color: white;
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 900;
+}
+
+.title {
+    text-align: center;
+}
+
+.big-button {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    height: 180px;
+    margin: 4px 0px;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.95;
+    font-weight: 400;
+    box-shadow: 2px 1px 3px rgba(6, 6, 6, 0.38);
+}
+
+.big-button:hover,
+.big-button:active,
+.big-button:visited {
+    color: white;
+    text-decoration: none !important;
+}
+
+.color1 {
+    background-color: #C61934;
+}
+
+.color2 {
+    background-color: #923195;
+}
+
+.color3 {
+    background-color: #88A63E;
+}
+
+.color4 {
+    background-color: #FBD50A;
+}
+
+.color5{
+    background-color: #1A72A6;
+}
+
+.color6{
+    background-color: #DC500F;
+}
+
+.icon {
+    width: 100%;
+    height: 64px;
+    display: block;
+}
+
+.accident-icon    { background: url('../img/transport104.png') no-repeat top center; }
+.fire-icon        { background: url('../img/fire14.png') no-repeat top center; }
+.robery-icon      { background: url('../img/money194.png') no-repeat top center; }
+.electricity-icon { background: url('../img/lightbulb22.png') no-repeat top center; }
+.flood-icon       { background: url('../img/house210.png') no-repeat top center; }
+.drought-icon     { background: url('../img/bathroom4.png') no-repeat top center; }
