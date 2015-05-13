@@ -86,7 +86,13 @@
 
         render: function() {
             var that = this;
-            that.$el.html(Mustache.render($('#template-service').html(), {}));
+            that.$el.html(Mustache.render($('#template-service').html(), {
+                name: "Pedro Santiago",
+                service_name: "Servicio de Grua",
+                phone: "787-552-1010",
+                email: "pedro@gruas.com",
+                distance: "2 km"
+            }));
         }
     });
 
@@ -95,7 +101,7 @@
             'register': 'register',
             'home': 'home',
             'connecting': 'connecting',
-            'service': 'service'
+            'service/:id': 'service'
         }
     });
 
@@ -118,7 +124,7 @@
         connectingView.render();
     });
 
-    router.on('route:service', function() {
+    router.on('route:service', function(id) {
         serviceView.render();
     });
     
